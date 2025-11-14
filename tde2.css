@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: #F8FAFC;
+    color: black;
+}
+
+/* Centraliza o conteúdo principal com largura máxima */
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* === Header === */
+header {
+    background-image: linear-gradient(to right, #6CD4FF, #B9E8FB);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+    position: relative;
+    height: 200px;
+}
+
+.header-content {
+    max-width: 70%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.header-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.header-globe {
+    width: 220px;
+    filter: drop-shadow(0px 4px 10px rgba(0,0,0,0.2));
+}
+
+/* === Seção Éticas em Debate === */
+.eticas {
+    display: flex;
+    margin-top: 1rem;
+    /* padding: 2rem; */
+}
+
+.building-icon {
+    width: 200px;
+    flex-shrink: 0;
+}
+
+.eticas-info .top {
+    background-color: #F5D837;
+    font-weight: bold;
+    width: fit-content;
+    padding: .6rem 1rem;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin-bottom: 1rem;
+}
+
+.eticas-info ul {
+    padding-left: 1.5rem;
+    font-weight: 500;
+    border-radius: 8px;
+    line-height: 1.2;
+    font-size: 22px;
+}
+
+.eticas-info ul li {
+    font-size: 22px;
+}
+
+
+/* === Seção Tipos de Vieses === */
+.bias {
+    display: flex;
+    padding: 1rem;
+    gap: 2rem;
+    position: relative;
+}
+
+.bias img {
+    position: absolute;
+    right: 0;
+    width: 350px;
+}
+
+.bias .pl {
+    text-align: center;
+}
+
+.bias .pl img {
+    width: 280px;
+}
+
+.bias .pl ul {
+    list-style-type: none;
+    font-weight: bolder;
+}
+
+.diagram-container {
+    width: 80%;
+}
+
+.diagram-title {
+    background-color: #F5D837; 
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: .8rem; 
+    font-weight: bold;
+    border: 2px solid black;
+    padding: .6rem 1rem;
+    width: 100%;/* font-size: 1.2rem; */
+}
+
+.diagram-columns {
+    display: flex; 
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.diagram-columns div {
+    font-size: 25px;
+}
+
+.diagram-column {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+    width: 100%;
+}
+
+.diagram-box {
+    background-image: linear-gradient(90deg, #B9E8FB, #86D7F9);
+    border: 2px solid black;
+    padding: .6rem 1rem;
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* === Seção Éticas em Debate === */
+.impactos {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+    position: relative;
+}
+
+.ferramenta_ai {
+    position: absolute;
+    width: 125px;
+    top: 0;
+    right: 0;
+    margin-top: 30px;
+}
+
+.impactos .building-icon {
+    width: 200 !important; 
+    flex-shrink: 0;
+}
+
+.impactos-info {
+    width: 100%;
+}
+
+.impactos-info .top {
+    background-color: #F5D837;
+    font-weight: bold;
+    width: 70%;
+    padding: .6rem 1rem;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin-bottom: .8rem;
+}
+
+.impactos-info .text_body {
+    background-color: #B8F6D2;
+    padding: 1rem;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 2px solid black;
+    line-height: 1.8;
+    width: 100%;
+}
+
+/* === Seção Éticas em Debate === */
+.debates {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 1rem;
+
+    width: 100%;
+    position: relative;
+}
+
+.conexoes {
+    position: absolute;
+    width: 250px;
+    top: 0;
+    right: 0;
+    margin-top: 30px;
+}
+
+.debates-info {
+    width: 100%;
+}
+
+.debates-info .top {
+    background-color: #F5D837;
+    font-weight: bold;
+    width: 100%;
+    padding: .6rem 1rem;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin-bottom: .8rem;
+}
+
+.debates-info .text_body {
+    background-image: linear-gradient(90deg, #B9E8FB, #86D7F9);
+    padding: 1rem;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 2px solid black;
+    line-height: 1.8;
+    width: 100%;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+/* === Footer / Princípios === */
+.principios {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 2rem;
+}
+
+.principios h2 {
+    margin-bottom: .8rem;
+}
+
+.principios .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-width: 800px;
+}
+
+.principio-card {
+    background-color: #E2E8F0;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.principio-card img {
+    width: 24px;
+    height: 24px;
+}
+
+.principios .final-phrase {
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.principios .balance {
+    width: 200px;
+    align-self: flex-end;
+}
+
+footer .top {
+    background-color: #FFA30F;
+    font-weight: bold;
+    width: fit-content;
+    padding: .6rem 1rem;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin-bottom: .8rem;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+
+footer p{
+    font-size: 16px;
+}
+footer .references {
+    width: 60%;
+}
